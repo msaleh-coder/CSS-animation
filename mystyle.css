@@ -1,0 +1,53 @@
+img{
+	width: 50px;
+	height: 50px;
+	border: 200px solid red;
+	border-radius: 50%;
+	transition: 1s;
+	float: left;
+	animation: saleh 2s infinite;
+}
+@keyframes saleh{
+	50%{
+		width: 500px;
+		height: 500px
+	}
+}
+img:hover{
+	float: right;
+}
+.s {
+	width: 300px;
+	height: 200px;
+	background-color: green;
+	float:left;
+	border-radius: 20px 50px 20px 80px;
+}
+
+.N{
+	width: 400px;
+	height: 400px;
+	background-color: pink;
+	float:left;
+	border-radius: 90px 20px 80px 15px;
+}
+.u{
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	border-radius: 20px 50px 20px 80px;
+	overflow: hidden;
+}
+.sun{
+	width: 500px;
+	height: 200px;
+	background-color: orange;
+	border-radius: 20px 50px 20px 80px;
+	animation: amar 2s infinite;
+
+}
+@keyframes  amar{
+	50%{
+		border-radius: 50px;
+	}
+}
